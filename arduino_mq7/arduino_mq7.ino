@@ -8,7 +8,7 @@ MQ7 mq7(A0, 5.0);
 void setup() {
   // put your setup code here, to run once:
 
-  Serial.begin(9600);             // シリアル通信の準備をする
+  Serial.begin(115200);             // シリアル通信の準備をする
   while (!Serial);                  // 準備が終わるのを待つ
 
   pinMode(DOUTpin, INPUT);//sets the pin as an input to the arduino
